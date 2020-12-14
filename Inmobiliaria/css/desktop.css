@@ -1,9 +1,11 @@
-
+header {
+    height: 200px;
+}
 
 header #top{
     justify-content: space-between;
     order:2;
-    width:50%
+    width:30%
 }
 
 header #top span#open {
@@ -14,15 +16,16 @@ header #top span#open {
     font-family: Unlock !important;
 }
 header #top nav#sociales {
-    width: 50%;
+    width: 70%;
     order:1;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 header #top nav#sociales a{
     width: 10%;
+    font-size: 25px;
 }
 header #top nav#user {
-    width:15%;
+    width:25%;
     justify-content: center;
     order:2;
 }
@@ -30,9 +33,16 @@ header #top nav#user a#telefono{
     display: none
 }
 
+header #bottom nav#menu a {
+   
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Dosis;
+}
+
 header #main {
     order:0;
-    width: 50%;
+    width: 70%;
 }
 header #main figure{
     width: 20%; 
@@ -88,6 +98,21 @@ section article {
     justify-content: space-between;
 
 }
+section article figure{
+    order:1;
+}
+section article  h4{
+    order:2;
+}
+section article .ref {
+    order:0;
+}
+section article .features{
+    order:3;
+    width:100%;
+    background-color:  rgba(0,0,0,.2);
+}
+
 section article figure img {
    
 }

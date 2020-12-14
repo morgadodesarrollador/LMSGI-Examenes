@@ -31,13 +31,12 @@ header #main #titulo {
     width: 70%;
 }
 header #bottom{
-    width: 60%
-}
-
-
-header #bottom {
     flex-flow: row nowrap;
+    width: 60%;
+    align-items: flex-end;
 }
+
+
 
 header #bottom #address {
     width: 25%;
