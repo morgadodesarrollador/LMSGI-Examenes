@@ -13,7 +13,7 @@ header nav.nav1 {
 }
 header nav.nav1 a {
     color: grey;
-    margin: 2%;
+    margin: 4%;
     justify-content: space-around;
     text-decoration: none;
     font-family: Dosis;
@@ -21,25 +21,58 @@ header nav.nav1 a {
 header nav.nav2 {
     display: flex;
     justify-content: center;
-    background-color: rgb(91, 201, 124);
 }
 header nav.nav2 a {
-    color: grey;
     margin: 2%;
     justify-content: space-between;
     text-decoration: none;
     font-family: Dosis;
 }
 header nav.nav2 a span {
-    color: navy;
+    color: rgb(0, 0, 201);
 }
 header figure {
     text-align: center;
     display: flex;
 }
-header figure img {
-    height: 100px;
+header div.titulo {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 5%;
 }
-header figure h1 {
+header div.titulo figure img {
+    height: 100px;
+    flex-direction: row;
+}
+header div.titulo h1 {
+    font-family: Unlock;
     flex-direction: column;
+}
+header div.titulo p {
+    font-family: Charmonman;
+    font-size: 15pt;
+    flex-direction: column;
+}
+header div.tarjetas {
+    display: flex;
+    justify-content: space-around;
+}
+header div.tarjetas a {
+    font-size: 20pt;
+    color: grey;
+}
+header div.tarjetas p.tarjeta1 {
+    background-color: rgba(165, 165, 165, 0.5);
+    border-radius: 5px;
+    font-family: Dosis;
+    font-size: 14pt;
+    text-align: center;
+}
+header div.tarjetas p.tarjeta2 {
+    background-color: rgba(165, 165, 165, 0.5);
+    border-radius: 5px;
+    font-family: Dosis;
+    font-size: 14pt;
+    text-align: center;
 }
