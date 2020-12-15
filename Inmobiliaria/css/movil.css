@@ -86,22 +86,38 @@ header.main div.dire span{
 }
 
 header.bottom{
- height: 50%;
+ height: 80%;
 }
-header.bottom ul{
+header.bottom nav a{
 background-color:  rgba(0,0,255,.1); ;
 transition:background-color 1s linear ;
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-around;
+height: 20px;
 }
-header.bottom ul li:hover{
+header.bottom nav a:hover{
    background-color: rgb(255, 250, 250);
 }
 
+header.bottom nav a span{
+    width: 30%;
+    text-decoration: none;
+}
 
+header.bottom nav a i{
+    width: 10%;
+ 
+}
+header.bottom nav a  i.deskfas{
+    display: none;
+}
 main{
   height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 main h1{
   font-family:'Charmonman', serif;
