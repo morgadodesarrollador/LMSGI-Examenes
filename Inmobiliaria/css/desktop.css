@@ -5,7 +5,7 @@ position: relative;
 width: 2123px;
 height: 1868px;
 
-background: #FFFFFF;
+background-color: none
 header h1 {
     font-size: 30px;
     width: 60%;
@@ -44,15 +44,3 @@ main picture:last-child {
     display: block;
 }
 
-main section#novedades article{
-
-    display: flex;
-    flex-flow: column nowrap;
-}
-
-main section#novedades article time{
-    order:1
-}
-main section#novedades article p{
-    order:0
-}
