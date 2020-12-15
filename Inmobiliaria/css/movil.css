@@ -6,17 +6,57 @@
 
 header {
     flex-flow: column;
-    background-color: rgb(185, 185, 185);
-}
+    background-color: rgba(0,0,255,.1); }
 
 header #header-top {
     height: 80px;
-    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    flex-flow: column;
 }
 
 header #header-top figure {
-   
+   align-content: center;
+   font-size: 25px;
+}
+
+header #header-top figure i {
+    color: rgb(65, 65, 65);
+}
+
+header #header-top nav {
+    background-color: none;
+}
+
+
+header #header-top article {
+    display: flex;
+    flex-direction: column;
+}
+
+header #header-main {
+    display: flex;
+    justify-content: space-around;
+    background-color: none;
+}
+
+header #header-main article {
+    justify-content: space-around;
+    background-color: none;
+}
+
+header #header-main figure img {
+    height: 75px;
+    flex-flow: column;
+    justify-content: space-around;
+
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
