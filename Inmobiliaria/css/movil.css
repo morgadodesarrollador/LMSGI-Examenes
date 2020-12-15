@@ -74,11 +74,12 @@ header figure#titulo img{
 }
 
 header figure#titulo h1 {
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Passion One', cursive;
 }
 
 header figure#titulo p{
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Charmonman', cursive;
 }
 
@@ -123,9 +124,9 @@ header nav#navegacion div.info i{
     color: rgba(87, 87, 87, 0.712);
 }
 
-header nav#navegacion div.info figure{
+header nav#navegacion div.info figure#inform{
     background-color: rgb(179, 179, 179);
-    width: 28%;
+    width: 32%;
     height: 80%;
     border-radius: 20px;
     display: flex;
@@ -133,6 +134,8 @@ header nav#navegacion div.info figure{
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
     
 }
 
@@ -141,7 +144,7 @@ header nav#navegacion div.info figure{
 main{
    /*background-color: red;*/
    width: 100%;
-   min-height: 1000px;
+   min-height: 100px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -163,21 +166,7 @@ main section {
     
 }
 
-img.zoom {
-    width: 350px;
-    height: 200px;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-}
- 
-.transition {
-    -webkit-transform: scale(1.8); 
-    -moz-transform: scale(1.8);
-    -o-transform: scale(1.8);
-    transform: scale(1.8);
-}
+
 
 main section article.viviendas {
     width: 80%;
@@ -199,6 +188,8 @@ main section article.viviendas img{
     display: flex;
 }
 
+
+
 main section article.viviendas h3{
     width: 100%;
     height: 40px;
@@ -209,6 +200,8 @@ main section article.viviendas h3{
     font-size: 18px;
     /*background-color: indianred;*/
     text-align: center;
+    font-family: 'Roboto Slab', serif;
+
 }
 
 main section article.viviendas div#referencia{
@@ -229,10 +222,4 @@ main section article.viviendas div#caracteristicas{
     justify-content: space-around;
     padding-left: 40px;
     padding-right: 40px;
-}
-
-footer{
-    background-color: rosybrown;
-    width: 100%;
-    height: 100px;
 }

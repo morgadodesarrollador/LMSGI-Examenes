@@ -6,12 +6,15 @@
     <title>Inmobiliaria</title>
     <link href="https://fonts.googleapis.com/css?family=Charmonman|Dosis|Unlock" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Charmonman&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" media="screen and (min-width:0px)"  href="css/movil.css">
-    <link rel="stylesheet" media="screen and (min-width:500px)" href="css/tablet.css" >
-    <link rel="stylesheet" media="screen and (min-width:900px)" href="css/desktop.css" >
+    <link rel="stylesheet" media="screen and (min-width:650px)" href="css/tablet.css" >
+    <link rel="stylesheet" media="screen and (min-width:1000px)" href="css/desktop.css" >
 </head>
 <body>
 
@@ -24,8 +27,8 @@
             <i class="fab fa-twitter"></i>
         </figure>
         <nav id="numero">
-            <a href="#"><i class="fas fa-phone-volume">629760303</i></a>
-            <a href="#">Te llamamos</a>
+            <a href="#" id="tel"><i class="fas fa-phone-volume">629760303</i></a>
+            <a href="#" id="tel">Te llamamos</a>
             <a href="#"><i class="fas fa-sign-in-alt">Login</i></a>
         </nav>
         <figure id="titulo">
@@ -39,28 +42,28 @@
         </figure>
 
         <nav id="navescritorio">
-            <a href="#"><i class="fas fa-home"></i></a>
-            <a href="#"><i class="fas fa-building"></i></i></a>
-            <a href="#"><i class="fas fa-clipboard-list"></i></i></a>
-            <a href="#"><i class="fas fa-file-alt"></i></i></i></a>            
+            <a href="#">Home<i class="fas fa-home"></i></a>
+            <a href="#">Viviendas<i class="fas fa-building"></i></i></a>
+            <a href="#">Noticias<i class="fas fa-clipboard-list"></i></i></a>
+            <a href="#">Presupuesto<i class="fas fa-file-alt"></i></i></i></a>            
         </nav>  
 
         <nav id="navegacion">
 
             <div class="info">
-                <figure>
+                <figure id="inform">
                     <p>123 QuickSale Street Chicago, IL 60606</p>
                 </figure>
 
-                <figure>
+                <figure id="inform">
                     <p>123-456-7890 info@yoursite.com</p>
                 </figure>
 
 
-                <i class="fas fa-bars"></i>
+                <figure id="movil"><i class="fas fa-bars"></i></figure>
 
             </div>
-
+            
             <a href="#">Home<i class="fas fa-angle-down"></i></a>
             <a href="#">Viviendas<i class="fas fa-angle-down"></i></a>
             <a href="#">Noticias<i class="fas fa-angle-down"></i></a>
@@ -195,7 +198,7 @@
             </article>
 
             <article class="viviendas">
-                <img src="img/small/piso9.jpg" onmouseover="this.width=500;this.height=500;" onmouseout="this.width=400;this.height=400;" width="300" height="300" >
+                <img src="img/small/piso9.jpg">
                 <h3>Apartamento Venta Los Delfines, Mojacar</h3>
                 <div id="referencia">
                     <p> Ref: 3511 </p>
@@ -219,4 +222,5 @@
 
 
     </footer>
+    
 </body>
