@@ -44,6 +44,8 @@ header#top nav.nav2 a {
 header#top nav.nav2 a span {
     color: rgb(0, 0, 201);
 }
+header#top nav.navdesk {
+}
 header#main {
     display: flex;
     flex-direction: row nowrap;
