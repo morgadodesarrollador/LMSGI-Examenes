@@ -18,7 +18,10 @@ header #header-top {
 
 header #header-top figure {
    align-content: center;
-   font-size: 25px;
+   font-size: 30px;
+   display: flex;
+   width: 50%;
+   justify-content: center;
 }
 
 header #header-top figure i {
@@ -27,6 +30,8 @@ header #header-top figure i {
 
 header #header-top nav {
     background-color: none;
+    color: black;
+    font-size: 20px;
 }
 
 
@@ -44,15 +49,35 @@ header #header-main {
 header #header-main article {
     justify-content: space-around;
     background-color: none;
+    display: flex;
+    flex-direction: column;
+}
+
+header #header-main article h1{
+    font-family: unlock;
+}
+
+header #header-main article p {
+    font-family: Charmonman;
+    font-size: 19px;
 }
 
 header #header-main figure img {
-    height: 75px;
+    height: 85px;
     flex-flow: column;
     justify-content: space-around;
 
-
 }
+
+header #header-bottom div {
+    display: flex;
+    flex-direction: row;
+}
+
+header #header-bottom nav a i.mt{
+    display: none
+}
+
 
 main{
     display: flex;
