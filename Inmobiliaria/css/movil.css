@@ -31,7 +31,7 @@ header {
 
 header i#menu {
     font-size: 24px;
-    color: rgb(192, 82, 255);
+    background-color: rgba(0,0,0,.1);
     font-weight: bold;
     order:2;
     width:6%;
@@ -53,7 +53,7 @@ header h1 {
 }
 main {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column ;
     background-color: rgb(195, 65, 228)
 
 }
@@ -67,7 +67,7 @@ main #intro {
 main #intro h2 {
     text-align: left;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(5, 3, 3);
     font-family: Piedra;
 }
 main #intro p:nth-child(2){
