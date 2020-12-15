@@ -54,38 +54,9 @@ header h1 {
 main {
     display: flex;
     flex-flow: column ;
-    background-color: rgb(195, 65, 228)
+    background-color:none
 
 }
-
-main #intro {
-    padding: 10px;
-    width: 100%;
-    overflow: hidden;
-
-}
-main #intro h2 {
-    text-align: left;
-    font-size: 20px;
-    color: rgb(5, 3, 3);
-    font-family: Piedra;
-}
-main #intro p:nth-child(2){
-    display: block !important;
- /*   color: red !important; */
-}
-.parrafo {
-
-}
-
-main #intro p{
-    font-family: Texturina;
-    text-align: justify;
-    text-indent: 0.5cm;
-    display: none;
-}
-
-
 main figure {
     display: flex;
     flex-flow: row wrap;
