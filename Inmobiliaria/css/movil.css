@@ -11,6 +11,7 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    min-height: 350px;
 }
 
 header div#top{
@@ -39,6 +40,11 @@ header div#top nav#contac{
     align-items: center;
     background-color: none;
 }
+header div#top nav#contac a{
+    color: rgba(0,0,255,.6);
+    text-decoration: none;
+}
+
 header div#main{
     width: 90%;
     display: flex;
@@ -82,11 +88,18 @@ header div#bottom{
 
 header div#bottom p{
     width: 40%;
+    text-align: center;
     font-family: dosis;
+    background-color: rgba(0,0,0,.1);
 }
 
 header div#bottom i.menu{
     width: 10%;
+    font-size: 20pt;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 header div#bottom i.desktop{
@@ -109,6 +122,11 @@ header div#bottom nav a{
     align-items: center;
     text-decoration: none;
 }
+
+header div#bottom nav a:hover{
+    background-color: white;
+}
+
  main{
      display: flex;
      flex-flow: column nowrap;
@@ -150,6 +168,10 @@ main section article figure img{
     border-radius: 0.2cm;
 }
 
+main section article figure img:hover{
+    box-shadow: 2px 2px;
+}
+
 main section article h3{
     width: 90%;
 }
@@ -166,4 +188,18 @@ main section article div#precio{
 
 main section article div#precio span#valor{
     font-family: unlock;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+}
+
+footer p{
+    color: white;
+    font-size: 14pt;
 }

@@ -1,3 +1,7 @@
+header{
+    min-height: 200px;
+}
+
 header div#top nav#social{
     width: 40%;
     order: 2;
@@ -12,12 +16,18 @@ header div#main{
     width: 40%;
 }
 
+header div#main div{
+    width: 60%;
+}
+
 header div#bottom{
     width: 60%;
+    align-items: flex-end;
 }
 
 header div#bottom p{
     width: 33%;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 header div#bottom i.menu{
@@ -30,4 +40,8 @@ header div#bottom nav{
 
 main section article{
     width: 47%;
+}
+
+footer{
+    flex-flow: row nowrap;
 }

@@ -23,7 +23,8 @@ header div#bottom  nav{
 }
 
 header div#bottom  nav a{
-
+    flex-flow: column-reverse nowrap;
+    color: rgba(0,0,255,.6);
 }
 
 header div#bottom  nav a i.desktop{
