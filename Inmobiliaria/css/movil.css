@@ -84,14 +84,16 @@ header nav div {
 
         header #bottom {
             display: flex;
+             flex-direction: row;
             width: 100%;
             height: 200px;
         }
 
         header #bottom div {
             display: flex ;
-            flex-direction: row wrap;
-            height
+            flex-direction: column;
+            height: 50%;
+
 
         }
     
