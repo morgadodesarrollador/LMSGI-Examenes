@@ -72,16 +72,53 @@ header #header-main figure img {
 header #header-bottom div {
     display: flex;
     flex-direction: row;
+
 }
 
-header #header-bottom nav a i.mt{
-    display: none
+header #header-bottom nav {
+    flex-direction: column;
+    display: flex;
 }
 
+header #header-bottom nav a i.mt {
+    display: none;
+}
 
-main{
+main h1{
+    font-size: 20px;
+    font-family: Charmonman;
+}
+
+main section{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
+
+main section article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px;
+}
+
+main section article img{
+    display: flex;
+    transition: 1s all;
+}
+
+main section article span{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(161, 161, 161);
+    font-size: 20px;
+}
+
+main section article span p {
+    justify-items: end;
+    flex-direction: row;
+    display: flex;
+    
+}
+
