@@ -47,6 +47,7 @@ header#top nav.nav2 a span {
 header#main {
     display: flex;
     flex-direction: row nowrap;
+    width: 50%;
 }
 header#main figure {
     margin: 2%;
@@ -81,33 +82,32 @@ header#bottom {
 }
 header#bottom div {
     display: flex;
-    flex-direction: row;
+    flex-direction: row nowrap;
     justify-content: space-between;
 }
 header#bottom div a {
-    font-size: 20pt;
+    font-size: 35pt;
     display: flex;
     flex-flow: row nowrap;
+}
+header#bottom div a i {
+    display: none;
 }
 header#bottom div p.tarjeta1 {
     font-family: Dosis;
     font-size: 14pt;
     text-align: center;
     justify-content: space-between;
-    width: 35%;
-    background-color: rgb(236, 232, 255);}
+    width: 50%;
+    background-color: rgb(236, 232, 255);
+}
 header#bottom div p.tarjeta2 {
     border-radius: 5px;
     font-family: Dosis;
     font-size: 14pt;
     text-align: center;
-    width: 35%;
+    width: 50%;
     background-color: rgb(236, 232, 255);
-}
-header#bottom div a {
-    justify-content: space-around;
-    margin: 5%;
-    display: none;
 }
 header#bottom nav {
     display: flex;
@@ -124,15 +124,15 @@ header#bottom nav a:hover {
     background-color: white;
 }
 header#bottom nav a span {
-    width: 50%;
+    width: 10%;
 }
 header#bottom nav a i {
     text-align: right;
-    width: 10%;
+    width: 100%;
 }
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row wrap;
     background-color: white;
 }
 main h1 {
@@ -140,19 +140,25 @@ main h1 {
     text-align: left;
     font-family: Charmonman ;
 }
+main section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
 main section article {
-    margin: 5%;
+
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    width: 40%;
 }
 main section article h1 {
     text-align: center;
     font-family: Dosis;
 }
 main section article figure img {
-    height: 250px;
     text-align: center;
+    width: 100%;
 }
 main section article div {
     background-color: darkgrey;
