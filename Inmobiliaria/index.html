@@ -15,32 +15,41 @@
     
 </head>
 <body>
+    <!-- Las etiquetas semánticas (nav, header, section, article, hx, figure ...) deben de usarse
+        para el uso semático con el que fueron creadas.
+        La etiqueta <div> SE USA PARA MAQUETAR GENÉRICAMENTE, cuando no se aplica en el contexto una
+        etiqueta semántica
+        GOOGLE PENALIZA ESTA PÁGINA A LAS ÚLTIMAS POSICIONES (no hay SEO)
+    -->
       <header>
-          <nav class="H1">
-              <div class="Facebook">
+          <nav class="H1"> <!-- es un div -->
+              <div class="Facebook">  <!-- es una menu de navegación <nav> -->
                 <i class="fab fa-pinterest-square"></i><i class="fab fa-google-plus-g"><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i></i>
              </div>
              <div class="Numero">
-                <nav><a href=""><i class="fas fa-phone-volume"></i>629 79 03 03 </a>Te llamamos</nav>
+                <nav>
+                    <a href=""><!-- los textos en <span> -->
+                        <i class="fas fa-phone-volume"></i>629 79 03 03 </a>Te llamamos
+                    </nav>
                 <nav><a href=""><i class="fas fa-sign-in-alt"></i>Login</a></nav>
              </div>
           </nav>
-          <nav class="menu" >
-          <div class="H2">
-            <nav class="foto1">
+          <nav class="menu" > <!-- NO TIENE SENTIDO. NO ES UN MENÚ DE NAVEGACIÓN -->
+          <div class="H2"> <!-- es un div -->
+            <nav class="foto1"> <!-- es un div -->
               <img src="img/logo.jpg" alt="im">
-              <nav class="la_casa">
+              <nav class="la_casa"> <!-- es un div -->
               <h1>La casa de tus sueños</h1>
               <p> Inmobiliaria la laguna</p>
             </nav>
          </div>
           <div class="menu_T" >
-              <nav class="menu1">
-                  <div>123 quichsale <br>Chicago.iL 60606</div>
+              <nav class="menu1"><!-- es un div -->
+                  <div>123 quichsale <br>Chicago.iL 60606</div><!-- es un <p> o <span> -->
                   <div>123-456-789 <br>info@yoursite.com</div>
                   <div class="tres_F"><a href=""><i class="fas fa-bars"></i></a></div>
               </nav>
-              <nav class="menu2">
+              <nav class="menu2"><!-- te ha faltado el <span> y el segundo <i> para el desktop-->
                   <a href="">Home <i class="fas fa-angle-down"></i></a>
                   <a href="">Viviendas<i class="fas fa-angle-down"></i></a>
                   <a href="">Noticias<i class="fas fa-angle-down"></i></a>
@@ -49,11 +58,11 @@
             </div>
         </nav>
       </header>
-      <main>
+      <main>  <!-- es un <section> que contiene <article> -->
           <nav class="Viviendas">
               Viviendas en mojacar
           </nav>
-          <nav class="casas">
+          <nav class="casas"> <!-- <article> -->
            <img src="img/small/piso1.jpg" alt="">
            <div > apartamento Venta los delfines mojaca</div>
            <div class="AP"><p> Ref: 3511 </p><p>59.00$</p></div>
