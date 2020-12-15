@@ -1,3 +1,7 @@
+
+position: relative;
+width: 512px;
+height: 826px;
 * {
     box-sizing: border-box;
     margin:0;
@@ -6,6 +10,10 @@
     box-sizing: border-box;
     margin: 0; padding:0
 }
+
+
+
+
 
 header {
     display: flex;
@@ -38,7 +46,7 @@ header h1 {
     font-size: 20px;
     order:1;
     font-family: Piedra;
-    color: rgb(255, 255, 255);
+    color: rgb(195, 65, 228);
     letter-spacing: 2px;
     width: 88%;
     background-color: none;
@@ -46,7 +54,7 @@ header h1 {
 main {
     display: flex;
     flex-flow: column nowrap;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(195, 65, 228)
 
 }
 
