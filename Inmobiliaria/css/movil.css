@@ -4,3 +4,19 @@
     padding:0;
 }
 
+header {
+    flex-flow: column;
+    background-color: rgb(185, 185, 185);
+}
+
+header #header-top {
+    height: 80px;
+    background-color: hotpink;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column;
+}
+
+header #header-top figure {
+   
+}
