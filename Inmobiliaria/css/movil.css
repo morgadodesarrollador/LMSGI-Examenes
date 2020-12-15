@@ -4,6 +4,42 @@
     padding:0;
 }
 
-header {
-    background-color: red;
+header{
+    background-color: rgb(236, 232, 255);
+}
+header nav.nav1 {
+    display: flex;
+    justify-content: center;
+}
+header nav.nav1 a {
+    color: grey;
+    margin: 2%;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: Dosis;
+}
+header nav.nav2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(91, 201, 124);
+}
+header nav.nav2 a {
+    color: grey;
+    margin: 2%;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: Dosis;
+}
+header nav.nav2 a span {
+    color: navy;
+}
+header figure {
+    text-align: center;
+    display: flex;
+}
+header figure img {
+    height: 100px;
+}
+header figure h1 {
+    flex-direction: column;
 }
