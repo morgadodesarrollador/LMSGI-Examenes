@@ -7,13 +7,16 @@
     <link href="https://fonts.googleapis.com/css?family=Charmonman|Dosis|Unlock" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, user-scalable=no">
+
+<!-- hacemos un mobile first. Diseñado para que al ccargar tablet se carge el movil.css 
+    al cargar desktop se carga la tablet.css y movil.css -->
     <link rel="stylesheet" media="screen and (min-width:0px)"  href="css/movil.css">
     <link rel="stylesheet" media="screen and (min-width:768px)" href="css/tablet.css"  >
     <link rel="stylesheet" media="screen and (min-width:992px)" href="css/desktop.css" >
 </head>
 <body>
     <header>
-        <header id="top">
+        <header id="top"> <!-- <div id="top"> -->
             <nav class = "nav1">
                 <a href="">
                     <i class="fab fa-pinterest-p"></i>
@@ -40,7 +43,7 @@
                     </a>
             </nav>
         </header>
-        <header id="main">
+        <header id="main"> <!-- <div id="main"> -->
             <figure>
                 <img src="img/logo.png" alt="">
             </figure>
@@ -49,7 +52,7 @@
                 <p>Inmobiliaria La Laguna</p>
             </div>
         </header>
-        <header id="bottom">
+        <header id="bottom"> <!-- <div id="bottom"> -->
             <div>
                 <p class = "tarjeta1"> 123 QuickSale Street Chicaco, IL 60606 </p>
                 <p class = "tarjeta2">123-456-7890 info@yoursite.com</p>
@@ -57,7 +60,7 @@
                     <i class="fas fa-bars"></i>
                 </a>
             </div>
-            <nav>
+            <nav> <!-- no pones el <i> correspondiente al desktop-->
                 <a href="">
                     <span>Home</span>
                     <i class="fas fa-angle-down"></i>
@@ -85,14 +88,14 @@
                     <figure>
                         <img src="img/small/piso2.jpg" alt="">
                     </figure>
-                    <h1>
+                    <h1> <!-- el h1 se reserva al titulo prinicpal. Debería ser hx o span con font-size-->
                         Apartamento Venta Los Delfines, Mojácar
                     </h1>
                     <div>
                         <p>Ref:3511</p>
                         <span>9.000€</p>
                     </div>
-                    <nav>
+                    <nav> <!-- <div class="features"> , el <nav> es para menús de navegación con enlaces -->
                         <p>
                             <i class="fas fa-home">67m2</i>
                         </p>

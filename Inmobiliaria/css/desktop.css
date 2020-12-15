@@ -1,3 +1,6 @@
+/* NO DEBES DE REPETIR TODOS LOS ESTILOS YA QUE AL CARGAR EL DESKTOP
+   TENEMOS EL MOVIL.CSS Y TABLET.CSS */
+
 * {
     box-sizing: border-box;
     margin:0;
