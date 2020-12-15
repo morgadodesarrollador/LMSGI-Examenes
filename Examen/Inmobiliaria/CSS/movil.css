@@ -1,0 +1,36 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aliceblue;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header nav {
+    background-color: aqua;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+header div #top3 {
+    align-self: center;
+
+}
+
+header figure {
+    background-color: saddlebrown;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    al
+}
