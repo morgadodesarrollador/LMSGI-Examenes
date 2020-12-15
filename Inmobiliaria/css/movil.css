@@ -11,13 +11,15 @@ text-align: center;
 background-color: rgba(0,0,255,.1)
 }
 header nav {
-    width: 100%;
+    
     align-items: center;
+    display: flex
     background-color: rgba(0,0,255,.1)
-
+   
 }
-header main{
-    text-align: right;
-    background-color: rgba(0,0,255,.1)
-  
+main{
+    background-color: white;
+    font: Dosis;
+    width: 100%;
+    display: flex
 }
