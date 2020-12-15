@@ -3,3 +3,179 @@
     margin:0;
     padding:0;
 }
+
+header{
+    background-color: rgb(236, 232, 255);
+}
+header#top {
+    display: flex;
+    flex-direction: row-reverse;
+}
+header#top nav {
+    display: flex;
+    flex-flow: row nowrap;
+}
+header#top nav.nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 30%;
+}
+header#top nav.nav1 a {
+    color: grey;
+    margin: 3%;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+    font-family: Dosis;
+}
+header#top nav.nav2 {
+    display: flex;
+    justify-content: left;
+    flex-direction: row nowrap;
+    width: 60%;
+}
+header#top nav.nav2 a {
+    margin: 2%;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: Dosis;
+}
+header#top nav.nav2 a span {
+    color: rgb(0, 0, 201);
+}
+header#main {
+    display: flex;
+    flex-direction: row nowrap;
+}
+header#main figure {
+    margin: 2%;
+    display: flex;
+}
+header#main div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 2%;
+    justify-content: flex-start;
+}
+header#main figure img {
+    height: 100px;
+    flex-direction: row;
+}
+header#main div h1 {
+    font-family: Unlock;
+    font-size: 20pt;
+    width: 70%;
+}
+header#main div p {
+    font-family: Charmonman;
+    font-size: 13pt;
+    flex-direction: column;
+}
+header#bottom {
+    margin: 2%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row nowrap;
+}
+header#bottom div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header#bottom div a {
+    font-size: 20pt;
+    display: flex;
+    flex-flow: row nowrap;
+}
+header#bottom div p.tarjeta1 {
+    font-family: Dosis;
+    font-size: 14pt;
+    text-align: center;
+    justify-content: space-between;
+    width: 35%;
+    background-color: rgb(236, 232, 255);}
+header#bottom div p.tarjeta2 {
+    border-radius: 5px;
+    font-family: Dosis;
+    font-size: 14pt;
+    text-align: center;
+    width: 35%;
+    background-color: rgb(236, 232, 255);
+}
+header#bottom div a {
+    justify-content: space-around;
+    margin: 5%;
+    display: none;
+}
+header#bottom nav {
+    display: flex;
+    flex-direction: column;
+}
+header#bottom nav a {
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 15pt;
+    justify-content: space-around;
+}
+header#bottom nav a:hover {
+    background-color: white;
+}
+header#bottom nav a span {
+    width: 50%;
+}
+header#bottom nav a i {
+    text-align: right;
+    width: 10%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+main h1 {
+    margin: 5%;
+    text-align: left;
+    font-family: Charmonman ;
+}
+main section article {
+    margin: 5%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+main section article h1 {
+    text-align: center;
+    font-family: Dosis;
+}
+main section article figure img {
+    height: 250px;
+    text-align: center;
+}
+main section article div {
+    background-color: darkgrey;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 90%;
+}
+main section article div p {
+    justify-content: space-around;
+    width: 30%;
+    font-family: Dosis;
+    font-size: 15pt;
+}
+main section article div span {
+    justify-content: space-around;
+    text-align: right;
+    width: 70%;
+    font-family: Unlock;
+    font-size: 15pt;
+}
+main section article nav {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 2%;
+}

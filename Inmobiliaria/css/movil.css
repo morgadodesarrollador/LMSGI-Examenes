@@ -135,6 +135,7 @@ main section article {
 }
 main section article h1 {
     text-align: center;
+    font-family: Dosis;
 }
 main section article figure img {
     height: 250px;
@@ -159,4 +160,9 @@ main section article div span {
     width: 70%;
     font-family: Unlock;
     font-size: 15pt;
+}
+main section article nav {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 2%;
 }
