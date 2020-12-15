@@ -82,6 +82,7 @@ header div#bottom{
 
 header div#bottom p{
     width: 40%;
+    font-family: dosis;
 }
 
 header div#bottom i{
@@ -97,8 +98,10 @@ header div#bottom nav{
 }
 
 header div#bottom nav a{
+    width: 100%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
 }
