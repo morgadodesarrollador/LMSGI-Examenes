@@ -10,37 +10,124 @@
         margin: auto;
         border:brown;
         width: 100%;
-       border:solid darkblue;
-        height:400px ;
-        background-color:white; 
+       
+        height:350px ;
+        background-color:rgb(206, 194, 194); 
         margin: auto; 
    
     }
     .Facebook{
+        font-size: 20px;
         margin: auto;
         height: 30px;
         width: 50%;
-        background-color: brown;
+       
         padding:5px;
-        padding-left: 40px;
+        padding-left: 25px;
     }
     .Facebook i {
         padding-left: 20px;
     }
     .Numero{
+        font-size: 20px;
+        font-weight: bold;
         height: 40px;
         display: flex;
         justify-content: center;
-        background-color: darkblue;
         margin: auto;
         width: 80%;
         padding-top: 10px;
         justify-content: space-around;
     }
     .foto1 img{
-        width: 300px;
+        width: 100px;
     }
+    .foto1 {
+        width: 90%;
+        
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;  
+    }
+    .foto1 nav {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .menu1{
+        padding-top: 10px;
+        font-size: 20px;
+        align-items: center;
+        justify-content: space-around;
+        margin: auto;
+        display: flex;
+        
+    }
+    .menu1 div  {
+        background-color: rgb(209, 209, 209);   
+    }
+    .menu1 div a {
+     font-size: 40px;
+     margin-left: 20px;
+     background-color: white;
+     color: black;
 
 
+    }
+    .menu2{
+        float: right;
+        width: 55%;
+        display: flex; 
+        flex-flow: column nowrap; 
+        font-size: 25px;
+        height: 120px;
+        justify-content: space-evenly;  
+         
+    }
+    .menu2 a {
+        text-decoration: none; 
+        margin-left: 30px;
+        color: black;
+    }
+    .menu2 a i {
+        padding-left: 50px;
+        float: right;
+        margin-right: 20px;
+    }
+    .Viviendas{
+        padding: 5px;
+        font-size: 27px;
+        
+        height: 40px;
+        margin: 7px 10px 0px;
+        justify-content: center;
+    }
+    .casas{
+        width: 100%;
+        height: 100%; 
+    }
+    .casas img{
+        padding-top: 5px;
+        width: 90%;
+       height: 40%;
+       display: flex;
+       justify-content: center;
+       margin: auto;
+    }
+    .casas div {
+        font-size: 25px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin: auto;
 
+    }
+    .casas div p {
+        
+        margin: auto;
+        justify-content: space-between;    
+    }
+    .AP{
+        background-color: gray;
+    }
 }

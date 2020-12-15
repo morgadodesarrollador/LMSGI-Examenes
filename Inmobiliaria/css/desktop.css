@@ -1,0 +1,140 @@
+.H1{
+    display: flex;
+}
+.Facebook{
+    font-size: 20px;
+    margin: auto;
+    height: 30px;
+    width: 50%;
+    padding:5px;
+    padding-left: 25px; 
+    
+}
+.Facebook i {
+    padding-left: 20px;
+}
+.Numero{
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    padding-top: 10px;
+    justify-content: space-around;   
+}
+.menu{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap ;
+    align-items: center;
+    justify-content: space-around;
+}
+.H2{
+    margin-top: 7px;
+    display: flex;
+        
+}
+.tres_F{
+    display: none;
+}
+.foto1 img{
+    width: 150px;
+    height: 150px;
+}
+.foto1 {
+    
+    display: flex;
+    margin-left: 10px;  
+}
+.foto1 nav {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.menu_T{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+}
+.menu1{
+    width:20%;
+    background-color: green;
+    padding-top: 10px;
+    font-size: 20px;
+    display: flex; 
+    justify-content: space-around; 
+    
+
+}
+.menu1 div  {
+    background-color: rgb(209, 209, 209);  
+
+}
+.menu1 div a {
+ font-size: 20px;
+ margin-left: 20px;
+ background-color: white;
+ color: black;
+
+
+}
+.menu2{ 
+    background-color: rgb(128, 0, 64);
+    display: flex; 
+    flex-flow: column nowrap; 
+    font-size: 25px;
+    height: 120px;
+    justify-content: space-evenly;  
+    
+    
+     
+}
+.menu2 a {
+    
+    text-decoration: none; 
+    margin-left: 30px;
+    color: black;
+}
+.menu2 a i {
+    padding-left: 20px;
+    float: right;
+    margin-right: 20px;
+}
+.Viviendas{
+    padding: 5px;
+    font-size: 27px;
+    
+    height: 40px;
+    margin: 7px 10px 0px;
+    justify-content: center;
+}
+.casas{
+    width: 100%;
+    height: 100%; 
+}
+.casas img{
+    padding-top: 5px;
+    width: 90%;
+   height: 40%;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+.casas div {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+.casas div p {
+    
+    margin: auto;
+    justify-content: space-between;    
+}
+.AP{
+    background-color: gray;
+}
