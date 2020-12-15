@@ -5,16 +5,18 @@
 }
 
 body {
-
+min-height: 1000px;
 }
 
 header {
     width: 100%;
     height: 400px;
-    background-color: aqua;
+    background-color: rgb(212, 212, 212);
     display: flex;
     flex-direction: column;
 }
+
+
 
 header figure#RRSS {
     display: flex;
@@ -80,10 +82,14 @@ header figure#titulo p{
     font-family: 'Charmonman', cursive;
 }
 
+header nav#navescritorio {
+    display: none;
+}
+
 header nav#navegacion {
     width: 100%;
     height: 60%;
-    background-color: seagreen;
+    /*background-color: seagreen;*/
     display: flex;
     flex-direction: column;
     align-items: center ;
@@ -98,7 +104,7 @@ header nav#navegacion a{
     flex-direction: row;
     justify-content: space-between;
     align-items: end;
-    background-color: royalblue;
+    /*background-color: royalblue;*/
     
 }
 
@@ -109,11 +115,16 @@ header nav#navegacion div.info{
     align-items: center;
     width: 100%;
     height: 40%;
-    background-color: purple;
+    /*background-color: purple;*/
+}
+
+header nav#navegacion div.info i{
+    font-size: 30px;
+    color: rgba(87, 87, 87, 0.712);
 }
 
 header nav#navegacion div.info figure{
-    background-color: gray;
+    background-color: rgb(179, 179, 179);
     width: 28%;
     height: 80%;
     border-radius: 20px;
@@ -125,8 +136,10 @@ header nav#navegacion div.info figure{
     
 }
 
+
+
 main{
-   background-color: red;
+   /*background-color: red;*/
    width: 100%;
    min-height: 1000px;
    display: flex;
@@ -142,7 +155,7 @@ main h2 {
 main section {
     width: 90%;
     min-height: 1000px;
-    background-color: greenyellow;
+    /*background-color: greenyellow;*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -150,11 +163,27 @@ main section {
     
 }
 
+img.zoom {
+    width: 350px;
+    height: 200px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.8); 
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
+}
+
 main section article.viviendas {
     width: 80%;
     height: 10%;
-    background-color: hotpink;
-    border: 2px solid gray;
+    /*background-color: hotpink;*/
+    border: 1px solid gray;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -163,9 +192,6 @@ main section article.viviendas {
     border-radius: 3px;
 }
 
-main section article.viviendas p{
-
-}
 
 main section article.viviendas img{
     width: 100%;
@@ -181,7 +207,7 @@ main section article.viviendas h3{
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    background-color: indianred;
+    /*background-color: indianred;*/
     text-align: center;
 }
 
@@ -194,7 +220,7 @@ main section article.viviendas div#referencia{
     justify-content: space-between;
     align-items: center;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 main section article.viviendas div#caracteristicas{
