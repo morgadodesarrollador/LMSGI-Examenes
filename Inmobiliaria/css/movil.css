@@ -4,7 +4,101 @@
     padding:0;
 }
 
-h1{
-    font-size: 34pt;
-    color: green;
+header{
+    background-color: plum;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+header div#top{
+    width: 80%;
+    min-height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: none;
+}
+
+header div#top nav#social{
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div#top nav#contac{
+    width: 90%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: none;
+}
+header div#main{
+    width: 90%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div#main figure{
+    width: 100px;
+    height: 100px;
+}
+
+header div#main figure img{
+    width: 100%;
+    height: 100%;
+}
+
+header div#main div{
+    width: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+header div#main div h1{
+    font-family: unlock;
+}
+
+header div#main div span{
+    font-family: charmonman;
+}
+header div#bottom{
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div#bottom p{
+    width: 40%;
+}
+
+header div#bottom i{
+    width: 10%;
+}
+
+header div#bottom nav{
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header div#bottom nav a{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
