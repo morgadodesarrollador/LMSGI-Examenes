@@ -1,5 +1,46 @@
-* {
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
+@media screen and (max-width:576px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }    
+    header {
+        display: flex;
+        flex-direction:column ;
+        margin: auto;
+        border:brown;
+        width: 100%;
+       border:solid darkblue;
+        height:400px ;
+        background-color:white; 
+        margin: auto; 
+   
+    }
+    .Facebook{
+        margin: auto;
+        height: 30px;
+        width: 50%;
+        background-color: brown;
+        padding:5px;
+        padding-left: 40px;
+    }
+    .Facebook i {
+        padding-left: 20px;
+    }
+    .Numero{
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        background-color: darkblue;
+        margin: auto;
+        width: 80%;
+        padding-top: 10px;
+        justify-content: space-around;
+    }
+    .foto1 img{
+        width: 300px;
+    }
+
+
+
 }
