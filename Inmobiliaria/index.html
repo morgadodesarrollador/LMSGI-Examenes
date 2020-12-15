@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <header class="top">
-        <div class="iconos">
+    <header class="top"> <!-- <header>  tiene dentro   <div id="top"> -->
+        <div class="iconos"> <!-- esto es un <nav> -->
             <i class="fab fa-facebook-f"></i>
             <i class="fab fa-pinterest-p"></i>
             <i class="fab fa-google-plus-g"></i>
@@ -24,14 +24,15 @@
         </div>
         <div class="tel">
             <i class="fas fa-phone"></i>
-            <h1>Te llamamos</h1>
+            <h1>Te llamamos</h1> <!-- h1 solo uno por página y destinado al titular de más importancia 
+                                     podrá ser un hx o span con un font-size de 24px pe -->
         </div>
         <div class="login">
             <i class="fas fa-sign-in-alt"></i>
             <h1>Login</h1>
         </div>
     </header>
-    <header class="main">
+    <header class="main"> <!-- <header>  tiene dentro   <div id="main"> -->
         <figure>
             <img src="img/logo.png" alt="">
         </figure>
@@ -45,9 +46,9 @@
             <i class="fas fa-bars"></i>
         </div>
     </header>
-    <header class="bottom">
+    <header class="bottom"> <!-- <header>  tiene dentro   <div id="bottom"> -->
         <nav>
-            <a href="">
+            <a href=""><!-- ponemos href="#" cuando no tenemos url que poner  -->
                 <span>Home</span>
                 <i class="fas fa-angle-down"></i>
                 <i class="deskfas fa-home"></i>
@@ -72,27 +73,28 @@
     </header>
     <main>
         <H1>Viviendas en Mojacar</H1>
-        <div class="caja">
+        <div class="caja"> <!-- claro ejemplo de <section> que contiene muchos <article> 
+                                cada <article> sería una foto con el titulo, precios y características -->
             <figure>
                 <source media="(min-width:768px) and (max-width:991px)" srcset="img/medium/piso1.jpg" />
                 <source media="(min-width:992px)" srcset="img/big/piso1.jpg" />
                 <img src="img/small/piso1.jpg" alt="">
             </figure>
-            <div>
+            <div> <!-- un hx -->
                 <span>Apartamento Venta Los Delfines</span>
             </div>
             <div class="gris">
                 <span>Ref:351</span>
                 <span>59.000€</span>
             </div>
-            <div>
+            <div> <!-- te han faltado las caracterísiticas -->
                 <i class="fas fa-home"></i>
                 <i class="fas fa-bath"></i>
                 <i class="fas fa-bed"></i>
             </div>
         </div>
-        <div class="caja">
-            <figure>
+        <div class="caja"> <!-- article -->
+            <figure> 
                 <source media="(min-width:768px) and (max-width:991px)" srcset="img/medium/piso2.jpg" />
                 <source media="(min-width:992px)" srcset="img/big/img1.jpg" />
                 <img src="img/small/piso2.jpg" alt="">
