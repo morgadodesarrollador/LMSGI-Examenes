@@ -1,1 +1,51 @@
-dgh
+header div#top{
+    order: 2;
+    width: 30%;
+}
+
+header div#main{
+    order: 1;
+    width: 70%;
+}
+
+header div#bottom{
+    order: 3;
+}
+
+header div#bottom p{
+    display: none !important;
+}
+
+header div#bottom  nav{
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 70%;
+}
+
+header div#bottom  nav a{
+
+}
+
+header div#bottom  nav a i.desktop{
+    display: block !important;
+}
+
+header div#bottom  nav a i.flecha{
+    display: none !important;
+}
+
+header div#top nav#social{
+    order: initial;
+}
+
+header div#top nav#contac{
+    order: initial;
+}
+
+header div#top nav#contac a#telefono{
+    display: none !important;
+}
+
+main section article{
+    width: 30%;
+}

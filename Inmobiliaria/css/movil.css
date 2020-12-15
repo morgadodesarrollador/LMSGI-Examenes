@@ -85,8 +85,12 @@ header div#bottom p{
     font-family: dosis;
 }
 
-header div#bottom i{
+header div#bottom i.menu{
     width: 10%;
+}
+
+header div#bottom i.desktop{
+    display: none;
 }
 
 header div#bottom nav{
