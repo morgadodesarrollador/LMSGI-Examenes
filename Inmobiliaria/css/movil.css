@@ -3,3 +3,104 @@
     margin:0;
     padding:0;
 }
+header{
+  height:150px ;
+  background-color:rgb(206, 205, 212) ;
+}
+header.top{
+height:25% ;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+header.top div.iconos{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+header.top div.iconos i{
+  align-items: center;
+  justify-content: space-around;
+}
+header.top div.tel{
+  width: 50%;
+ flex-direction: row;
+ justify-content: space-between;
+}
+header.top div.tel i{
+  float: left;
+  margin: 2px;
+}
+header.top div.login{
+width: 50%;
+ flex-direction: row;
+}
+header.top div.login i{
+    float: left;
+      margin: 2px;
+}
+header.top div h1{
+   font-family: 'Barlow Condensed', sans-serif;
+   font-size: 14px;
+}
+
+header.main{
+height:25% ;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+header.main figure{
+  width: 30%;
+  text-align: right;
+}
+header.main figure i{
+ font-size: 16px;
+}
+header.main div.la-casa{
+  width: 70%;
+}
+header.main h1{
+ font-family: 'Ultra', serif;
+ font-size: 16px;
+}
+header.main h3{
+  font-family: 'Dancing Script', cursive;
+}
+header.main div.dire{
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+header.main div.dire span{
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: rgb(145, 142, 151);
+  float: left;
+  border-radius: 2px;
+}
+
+header.bottom{
+ height: 50%;
+}
+
+main{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main h1{
+  font-family: 'Barlow Condensed', sans-serif;
+}
+main div.caja{
+  width: 75%;
+  border: 1px solid black; 
+}
+main div.gris{
+  background-color: gray;
+  font-family: 'Ultra', serif;
+}
