@@ -5,3 +5,8 @@ h1 {
     padding: 10px;;
     color: yellow;
 }
+
+nav a {
+    color: blue;
+    font-size: 20px;
+}
