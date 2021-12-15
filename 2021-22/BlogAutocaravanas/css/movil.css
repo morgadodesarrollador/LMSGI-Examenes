@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(201, 201, 201);
+}
+
+header div#top {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header #top figure {
+    width: 90%;
+}
+
+header #top i {
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    width: 10%;
+}
+
+header div#bottom {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    padding: 15px;
+}
+
+header #bottom nav.buscar {
+    text-decoration: none;
+    width: 70%;
+}
+
+header #bottom .buscar a {
+    color: black;
+    text-decoration: none;
+    font-family: dosis;
+    font-size: 17px;
+}
+
+header div#bottom a:hover {
+    color: blue;
+}
+
+header #bottom nav.sociales {
+    width: 30%;
+}
+
+header #bottom .sociales i {
+    font-size: 18px;
+    padding: 10px;
+}
+
+header div#bottom i:hover {
+    color: blue;
+}
+
+header div#mapa {
+    display: none;
+}
+
+
+
+main div#texto {
+    display: none;
+}
+
+
+main section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+main section article {
+    padding: 12px;
+    width: 40%;
+}
+
+main section article h3 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-size: 25px;
+    font-family: unlock;
+}

@@ -1,0 +1,55 @@
+
+header div#top {
+    display: none;
+}
+
+header div#bottom .sociales i {
+    padding: 18px;
+}
+
+header div#mapa {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+header #mapa figure {
+    width: 25%;
+}
+
+header #mapa nav {
+    width: 75%;
+}
+
+header #mapa nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-family: dosis;
+    font-size: 20px;
+}
+
+header #mapa nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+main div#texto {
+    display: block;
+    margin: 15px;
+}
+
+main #texto p {
+    font-size: 35px;
+    padding: 5px;
+    font-family: tangerine;
+}
+
+main #texto p::first-letter {
+    margin-left: 40px;
+}
+
+main section {
+    flex-flow: row wrap;
+}
