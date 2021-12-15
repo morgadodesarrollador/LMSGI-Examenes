@@ -7,207 +7,91 @@
     <link href="https://fonts.googleapis.com/css?family=Charmonman|Dosis|Unlock" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" media="screen and (min-width:0px)"  href="css/movil.css">
-    <link rel="stylesheet" media="screen and (min-width:650px)"  href="css/tablet.css">
-    <link rel="stylesheet" media="screen and (min-width:900px)"  href="css/desktop.css">
+    <link rel="stylesheet" media="screen and (min-width:750px)"  href="css/tablet.css">
     <script src="js/index.js"></script>
-    <title>Examen de José María Viúdez Parra</title>
+    <title>Document</title>
 </head>
-<body>
+<body onload="inicio()">
     <header>
         <div id="top">
-            <div id="logo">
-                    <img src="img/logo/banimar.png" alt=""> 
-                </div>
-                <h1>Caronte Sistemas</h1>
-                <a href="#" id="navicon">
+            <figure id="logo">
+                    <img id="banimar" src="img/logo/banimar.png" alt=""> 
+                    <img id="auto" src="img/logo/auto.png" alt=""> 
+
+            </figure>
+             <a href="#" id="navicon">
                     <i class="fas fa-bars"></i>
-                </a>
-            </div>
+             </a>
+            <nav id="menu-nav">
+                    <a href="#">Empresa</a>
+                    <a id="integrales" href="#">Integrales</a>
+                    <a id="perfiladas" href="#">Perfiladas</a>
+                    <a href="#">Capuchinas</a>
+                    <a href="#">Van</a>
+                    <a href="#">Furgos Camperizadas</a>
+             </nav>
+        </div> 
+        <div id="bottom">
+            <nav id="menu">
+                <a href="#">Autocaravanas Nuevas</a>|<a href="#">Furgonetas Camperizadas</a>
+            </nav>
             <nav id="sociales">
-                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                <a href="#"><i class="fab fa-google-plus-g"></i></a>
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
             </nav>
-            <nav id="user">
-                <a href="#" id="telefono">
-                    <i class="fas fa-phone-volume"></i>
-                    <span>629 76 03 03</span>
-                    <span class="notice">Te llamamos</span>
-                </a>
-                <a href="#">
-                    <i class="fas fa-sign-in-alt"></i>
-                    <span class="notice"> Login </span>
-                </a>
-            </nav>
-        </div> 
-        <div id="main">
-            <figure>
-                <img src="img/logo.png">
-            </figure>
-            <div id="titulo">
-                <h2>La Casa de tus sueños</h2>
-                <h4>Inmobiliaria la Laguna</h4>
-            </div>
         </div>
-        <div id="bottom">
-            <div id="address" class="boton">
-                <p>123 QuickSale Street</p>
-                <p>Chicago, IL 60606</p>
-            </div>
-            <div id="contact" class="boton">
-                <p>123-456-7890</p>
-                <p>info@yoursite.com </p>
-            </div>
-            <a href="#" id="fav">
-                <i class="fas fa-bars"></i>
-            </a>
-            <nav id="menu">
-                <a href="#">
-                    <i class="fas fa-angle-down"></i>
-                    <i class="fas fa-home"></i>
-                    <span>Home</span>
-                </a>
-                <a href="#">
-                    <i class="fas fa-angle-down"></i>
-                    <i class="fas fa-building"></i>
-                    <span>Viviendas</span>
-                </a>
-                <a href="#">
-                    <i class="fas fa-angle-down"></i>
-                    <i class="fas fa-clipboard-list"></i>
-                    <span>Noticias</span>
-                </a>
-                <a href="#">
-                    <i class="fas fa-angle-down"></i>
-                    <i class="fas fa-file-alt"></i>
-                    <span>Presupiuesto</span>
-                </a>
-                
-            </nav>
-        </div>
-
     </header>
     <main>
-        <h3>Viviendas en Mojacar</h3>
         <section>
             
             <article>
+                <h4>Integrales</h4>
                 <figure>
                     <picture>
-                        <source media="(min-width:768px) and (max-width:991px)" srcset="img/medium/piso2.jpg"/>
-                        <source media="(min-width:992px)" srcset="img/big/piso2.jpg"/>   
-                        <img src="img/small/piso2.jpg" alt="">
+  
+                        <img src="img/logo/integral.png" alt="">
                     </picture>
                 </figure>
-                <h4>Apartamento Venta Los Delfines, Mojacar</h4>
-                <div class="ref">
-                    <span class="id">Ref: 3511</span>
-                    <span class="precio">59.000 €</span>
-                </div>
-                <div class="features">
-                    <i class="fas fa-home"> 67m2</i>
-                    <i class="fas fa-bath"> 2</i>
-                    <i class="fas fa-bed"> 3</i>
-                </div>
             </article>
             <article>
+                <h4>Capuchinas
+                </h4>
                 <figure>
                     <picture>
-                        <source media="(min-width:768px) and (max-width:991px)" srcset="img/medium/piso1.jpg"/>
-                        <source media="(min-width:992px)" srcset="img/big/piso1.jpg"/>   
-                        <img src="img/small/piso1.jpg" alt="">
+
+                        <img src="img/logo/capuchina.png" alt="">
                     </picture>
                 </figure>
-                <h4>Apartamento Venta Los Collados, Mojacar</h4>
-                <div class="ref">
-                    <span class="id">Ref: 3511</span>
-                    <span class="precio">59.000 €</span>
-                </div>
-                <div class="features">
-                    <i class="fas fa-home"> 67m2</i>
-                    <i class="fas fa-bath"> 2</i>
-                    <i class="fas fa-bed"> 3</i>
-                </div>
             </article>
             <article>
+                <h4>Perfiladas</h4>
                 <figure>
                     <picture>
-                        <source media="(min-width:768px) and (max-width:991px)" srcset="img/medium/piso3.jpg"/>
-                        <source media="(min-width:992px)" srcset="img/big/piso3.jpg"/>   
-                        <img src="img/small/piso3.jpg" alt="">
+ 
+                        <img src="img/logo/perfilada.png" alt="">
                     </picture>
                 </figure>
-                <h4>Apartamento Venta Servimarina, Mojacar</h4>
-                <div class="ref">
-                    <span class="id">Ref: 3511</span>
-                    <span class="precio">59.000 €</span>
-                </div>
-                <div class="features">
-                    <i class="fas fa-home"> 67m2</i>
-                    <i class="fas fa-bath"> 2</i>
-                    <i class="fas fa-bed"> 3</i>
-                </div>
             </article>
             <article>
+                <h4>Van</h4>
                 <figure>
                     <picture>
-                        <source media="(min-width:768px) and (max-width:991px)" srcset="img/medium/piso4.jpg"/>
-                        <source media="(min-width:992px)" srcset="img/big/piso4.jpg"/>   
-                        <img src="img/small/piso4.jpg" alt="">
+  
+                        <img src="img/logo/van.png" alt="">
                     </picture>
                 </figure>
-                <h4>Apartamento Venta Los Azules, Mojacar</h4>
-                <div class="ref">
-                    <span class="id">Ref: 3511</span>
-                    <span class="precio">59.000 €</span>
-                </div>
-                <div class="features">
-                    <i class="fas fa-home"> 67m2</i>
-                    <i class="fas fa-bath"> 2</i>
-                    <i class="fas fa-bed"> 3</i>
-                </div>
-            </article>
-            <article>
-                <figure>
-                    <picture>
-                        <source media="(min-width:768px) and (max-width:991px)" srcset="img/medium/piso5.jpg"/>
-                        <source media="(min-width:992px)" srcset="img/big/piso5.jpg"/>   
-                        <img src="img/small/piso5.jpg" alt="">
-                    </picture>
-                </figure>
-                <h4>Apartamento Venta Los Azules, Mojacar</h4>
-                <div class="ref">
-                    <span class="id">Ref: 3511</span>
-                    <span class="precio">59.000 €</span>
-                </div>
-                <div class="features">
-                    <i class="fas fa-home"> 67m2</i>
-                    <i class="fas fa-bath"> 2</i>
-                    <i class="fas fa-bed"> 3</i>
-                </div>
-            </article>
-            <article>
-                <figure>
-                    <picture>
-                        <source media="(min-width:768px) and (max-width:991px)" srcset="img/medium/piso6.jpg"/>
-                        <source media="(min-width:992px)" srcset="img/big/piso6.jpg"/>   
-                        <img src="img/small/piso6.jpg" alt="">
-                    </picture>
-                </figure>
-                <h4>Apartamento Venta Los Azules, Mojacar</h4>
-                <div class="ref">
-                    <span class="id">Ref: 3511</span>
-                    <span class="precio">59.000 €</span>
-                </div>
-                <div class="features">
-                    <i class="fas fa-home"> 67m2</i>
-                    <i class="fas fa-bath"> 2</i>
-                    <i class="fas fa-bed"> 3</i>
-                </div>
             </article>
         </section>
-        
+        <div id="texto">
+        <p>Antes de comenzar con los tipos de caravanas que existen debemos de repasar lo que se entiende por autocaravana porque hay cierto desconocimiento al respecto y como norma general, la gente tiende a confundir los conceptos muy a menudo.</p>
+<p>El concepto de autocaravana se aplica a aquellos vehículos construidos con propósito especial para el transporte y el alojamiento de personas. Esto significa que todo o que sirva para el transporte de forma autónoma -sirva como vehículo propiamente propulsado- y alojamiento, es una autocaravana.</p>
+<p>Las autocaravanas proporcionan a la vez transporte y alojamiento, cuentan con un habitáculo que facilita una total autonomía a sus usuarios, ya que disponen de todos los espacios, servicios y tecnologías imprescindibles para llevar a cabo la vida cotidiana -comedor -sala, cocina, baño y dormitorio-, además de la cabina de conducción y el compartimento del motor.</p>
+<p>En general, los tipos más habituales son los que se conocen como capuchina, perfilada, integral y camper. Hay además autocaravanas adaptadas a personas con movilidad reducida, que cuentan con una plataforma elevadora y accesorios convenientemente preparados para facilitar su movimiento.</p>
+<p>Las autocaravanas de peso superior a 3.500 kg son consideradas autocaravanas a todos los efectos excepto que para conducirlas es necesario disponer del permiso de conducir tipo C.
+<p>Las dimensiones de las autocaravanas suelen oscilar entre los 5 y los 7 metros de longitud, los 2.15 y los 2.25 metros de anchura y los 2.80 y los 3.15 metros de altura. El peso en vacío, por su parte, suele estar entre los 2.500 y los 2.800 kg, nunca sobrepasando los 3.500 kg para no tener que recurrir a un carné de conducir de camión tipo C.</p>
+      </div>
         
     </main>
 </body>

@@ -1,29 +1,30 @@
+
+console.log('fichero cargado');
 function inicio(){
     console.log('documento app cargado');
-    console.log(document);
     const vmain = document.querySelector('main section');
-    const integral = document.querySelector('header nav a#integral')
-    const perfiladas = document.querySelector('header nav a#perfiladas')
+    const integrales = document.querySelector('header #top nav a#integrales');
+    const perfiladas = document.querySelector('header #top nav a#perfiladas');
 
-    integral.addEventListener('click', () => {
-        console.log('has pinchado en integral')
-        fetch('html/integral.html')
+    integrales.addEventListener('click', () => {
+        console.log('has pinchado en integrales');
+        fetch('html/integrales.html')
         .then(respuesta => {
             return respuesta.text()
         })
         .then(respuestaHTML => {
-            console.log(respuestaHTML)
+            console.log(respuestaHTML);
             vmain.innerHTML = respuestaHTML;
         })
     });
     perfiladas.addEventListener('click', () => {
-        console.log('has pinchado en perfiladas')
+        console.log('has pinchado en perfiladas');
         fetch('html/perfiladas.html')
         .then(respuesta => {
             return respuesta.text()
         })
         .then(respuestaHTML => {
-            console.log(respuestaHTML)
+            console.log(respuestaHTML);
             vmain.innerHTML = respuestaHTML;
         })
     });
