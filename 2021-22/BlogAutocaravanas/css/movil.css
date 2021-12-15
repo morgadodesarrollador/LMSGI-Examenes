@@ -33,9 +33,7 @@ header #bottom {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    
 }
-
 header #bottom nav#menu a{
     color:blue;
     text-decoration: none;
@@ -58,12 +56,9 @@ header #bottom nav#sociales a {
     text-decoration: none;
     font-size: 20px;
 }
-
 header #bottom nav#sociales a:hover {
     color: blue;
 }
-
-
 header #bottom nav#menu{
     width:80%;
     display: flex;
@@ -94,19 +89,19 @@ section {
     flex-flow: column nowrap;
     align-items: center;
 }
-
 section article {
     margin-top: 10px;;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
 }
-
 section article figure {
     width: 100%;
     margin: 0 auto;
 }
-
 section article figure img {
     width: 100%
+}
+main #texto{
+    font-family: Charmonman;
 }
