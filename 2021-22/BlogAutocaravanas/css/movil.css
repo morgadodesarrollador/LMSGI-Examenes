@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    background-color: gainsboro;
+}
+
+
+
+/*Header top*/
+header div#top{
+    display: flex;
+    flex-flow: row nowrap;
+}
+header div#top figure{
+    width: 85%;
+}
+header div#top i{
+    width: 15%;
+    color: white;
+    font-size: 40px;
+    margin: auto;
+}
+
+
+
+/*Header Bottom*/
+header div#bottom{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    margin: auto;
+}
+header div#bottom nav#web{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    width: 75%;
+    margin: 20px auto 20px auto;
+}
+header div#bottom nav#web a{
+    text-decoration: none;
+    color: black;
+}
+header div#bottom nav#web a:hover{
+    color:blue;
+}
+header div#bottom nav#redes a{
+    text-decoration: none;
+}
+header div#bottom nav#redes{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 25%;
+    margin: 20px auto 20px auto;
+}
+header div#bottom nav#redes i{
+    color: black;
+}
+header div#bottom nav#redes i:hover{
+    color: blue;
+}
+
+
+
+/*menutablet*/
+header div#menutablet{
+    display: none;
+}
+
+
+
+/*Main*/
+main section{
+    display: flex;
+    flex-flow: row wrap;
+}
+main section article{
+    width: 60%;
+    margin: 20px auto auto auto;
+    text-align: center;
+}
+main section article h1{
+    font-size: 30px;
+}
+main section article figure img{
+    width: 80%;
+}
+
+
+/*Main text*/
+main section article#text{
+    display: none;
+}

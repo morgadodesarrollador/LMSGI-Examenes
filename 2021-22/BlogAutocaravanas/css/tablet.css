@@ -1,0 +1,48 @@
+header div#top{
+    display: none;
+}
+
+
+
+/*menutablet*/
+header div#menutablet{
+    display: flex;
+    flex-flow: row nowrap;
+}
+header div#menutablet figure{
+    width: 20%;
+    text-align: center;
+}
+header div#menutablet figure img{
+    width: 120px;
+}
+header div#menutablet nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+header div#menutablet nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: dosis;
+}
+header div#menutablet nav a:hover{
+    text-decoration:underline;
+    color: blue;
+}
+
+
+
+/*Main*/
+main section article{
+    width: 50%;
+}
+main section article#text{
+    display: block;
+    width: 95%;
+    font-family: 'Gwendolyn', cursive;
+    text-align: center;
+}
