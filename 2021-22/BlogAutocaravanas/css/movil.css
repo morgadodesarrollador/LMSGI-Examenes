@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(196, 194, 194);
+}
+
+header div#cabezera{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+header div#cabezera i{
+    width: 20%;
+    color: white;
+    font-size: 40px;
+    margin: auto;
+    justify-content: flex-end;
+}
+
+header div#enlaces{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    margin: auto;
+}
+
+header div#enlaces nav#webs{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    width: 75%;
+    margin: 20px auto 20px auto;
+
+}
+
+header div#enlaces nav#webs a{
+    text-decoration: none;
+    color: black;
+}
+
+header div#enlaces nav#webs a:hover{
+    color: blue;
+}
+
+header div#enlaces nav#sociales a{
+    text-decoration: none;
+}
+
+header div#enlaces nav#sociales{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 25%;
+    margin: 20px auto 20px auto
+}
+
+header div#enlaces nav#sociales i{
+    color: black;
+}
+
+header div#enlaces nav#sociales i:hover{
+    color: blue;
+}
+
+main section article#texto{
+    display: none;
+}
+
+header div#tablet{
+    display: none;
+}
+
+main section article{
+    width: 60%;
+    margin: 20px auto auto auto;
+    text-align: center;
+}
+
+main section article h1{
+    font-size: 30px;
+}
+
+main section article figure img{
+    width: 80%;
+}
