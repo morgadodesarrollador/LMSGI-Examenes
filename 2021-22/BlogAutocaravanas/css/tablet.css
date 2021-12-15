@@ -43,6 +43,11 @@ header div#menutablet nav{
     align-items: center;
 }
 main{
-
-    background-color: royalblue;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+main section p{
+    width: 100%;
+    color: black;
 }
