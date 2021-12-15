@@ -6,7 +6,7 @@
 header {
  background-color:whitesmoke ;
 }
-
+header div
 
 header div#arriba{
 display: flex;
@@ -27,7 +27,7 @@ head div#fondo {
     display: flex;
     flex-flow: row nowrap;
     width: 85%;
-    margin: 70px;
+    margin: auto;
 }
 header div#fondo nav#paginaweb {
     display: flex;
