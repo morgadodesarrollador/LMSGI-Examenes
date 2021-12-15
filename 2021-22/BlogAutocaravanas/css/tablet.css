@@ -1,0 +1,19 @@
+
+h1 {
+    background-color: white;
+    font-size: 30px;
+    color: black;
+    space around:center;
+}
+
+nav {
+    background-color: grey;
+    font-size: 20px;
+    color: yellow;
+
+}
+
+figure {
+    font-size: 20px;
+    space-around:center
+}
