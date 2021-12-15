@@ -67,7 +67,7 @@ header #main {
     flex-flow: row nowrap;
     justify-content: center;
     background-color: none;
-    align-items: center;
+    align-items:center;
     font-family: Unlock;
     padding: 10px;;
 }
