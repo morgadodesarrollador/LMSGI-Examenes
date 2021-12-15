@@ -1,0 +1,48 @@
+*{
+    margin: 0px;;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background-color: rgba(155, 155, 155, .3);
+    display: flex;
+    flex-flow: column nowrap;
+}
+header div#logo{
+    display: none;
+}
+header div#menumovil {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+header div#menumovil nav#submenu{
+    width: 70%;
+}
+header div#menumovil nav#rsociales{
+    width: 30%;
+}
+header div#menutablet{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+header div#menutablet figure{
+    width: 20%;
+}
+header div#menutablet figure img{
+    width: 100%;
+}
+header div#menutablet nav{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+
+    background-color: royalblue;
+}
