@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+}
+
+header div#arriba{
+    display:none;
+}
+
+/*tablet*/
+header div#tablet{
+    display: flex;
+    flex-flow: row nowrap;
+}
+header div#tablet figure{
+    width: 35%;
+    margin: auto;
+
+}
+header div#tablet nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+}
+header div#tablet img{
+    width: 63%;
+}
+header div#tablet nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: dosis;
+    margin: 10px;
+
+}
+header div#tablet nav a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
+/*main*/
+main section article{
+    width: 50%;
+}
+main section article#texto{
+    display: block;
+    width: 95%;
+    text-align: center;
+    
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    box-sizing: borde-box;
+    padding: 0 ;
+}
+header {
+ background-color:whitesmoke ;
+}
+
+
+header div#arriba{
+display: flex;
+flex-flow: row nowrap;
+}
+
+header div#arriba figure{
+    width: 85%;
+}
+header div#arriba i{
+    width: 20%;
+    color: wheat;
+    font-size: 60px;
+    margin: auto;
+}
+/*fondo*/
+head div#fondo {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 85%;
+    margin: 70px;
+}
+header div#fondo nav#paginaweb {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 60%;
+    margin: auto;
+    justify-content: start;
+}
+header div#fondo nav#paginaweb a{
+    text-decoration: none;
+    color: black;
+}
+head div#fondo nav#paginaweb a:hover{
+    color: lightblue;
+}
+header div#fondo nav#redes{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    font-size: 30px;
+    width: 28%;
+}
+header div#fondo nav#redes a {
+    text-decoration: none;
+}
+header div#fondo nav#redes i{
+    color: black;
+}
+header div#fondo nav#redes i:hover{
+    color: lightblue;
+}
+/*tablet*/
+header div#tablet{
+    display: none;
+}
+/*main*/
+main section article#texto{
+    display: none;
+}
+main section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
