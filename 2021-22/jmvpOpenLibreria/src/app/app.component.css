@@ -1,0 +1,9 @@
+
+main {
+  border: 2px solid blue;
+  display:grid;
+  height:530px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "menu  cuerpo  lateral";
+}

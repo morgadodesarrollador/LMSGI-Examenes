@@ -1,0 +1,43 @@
+<section>
+
+<div class="table-responsive">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item">
+        <a class="page-link">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" >2</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </nav>
+  <table class="table" >
+    <thead>
+      <th>Id</th>
+      <th>Titulo</th>
+      <th>Autor</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let libro of libros">
+         <td>
+          <img src="{{libro.cover}}">
+        </td>
+        <td>{{ libro.ID }}</td>
+        <td>{{ libro.title }}</td>
+        <td>{{ libro.author }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+<ul class="list-group">
+  <li class="list-group-item" aria-current="true"
+      *ngFor="let categoria of categorias">
+      <a>{{ categoria.category_id }}</a>
+      <a>{{ categoria.name }}</a>
+  </li>
+</ul>
+</section>

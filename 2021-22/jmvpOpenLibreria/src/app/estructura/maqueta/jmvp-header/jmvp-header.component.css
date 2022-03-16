@@ -1,0 +1,13 @@
+header {
+  display:grid;
+  height: 100px;
+  grid-template-columns: 1fr 9fr;
+  grid-template-areas:
+    "logo  menu  ";
+
+  }
+
+nav img{
+    width: 100px;
+    height: 20%;
+  }
