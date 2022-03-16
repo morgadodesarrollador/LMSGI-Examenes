@@ -1,0 +1,17 @@
+header{
+    background-color: red;
+    display: flex;
+    flex-flow: row nowrap;
+}
+header figure img{
+    width: 80%;
+}
+header div.menu{
+    margin: auto auto auto 1px;
+}
+header div.menu nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 25px;
+}

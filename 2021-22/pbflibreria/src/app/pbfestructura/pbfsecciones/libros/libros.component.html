@@ -1,0 +1,46 @@
+<section>
+
+
+<!-- <ul>
+    <li *ngFor="let libro of libros">{{libro.author}}</li>
+</ul> -->
+
+<!-- Categorias Menu Lateral -->
+<ul class="list-group">
+    <li class="list-group-item" aria-current="true"
+        *ngFor="let categoria of categorias"
+    >
+        {{categoria.name}}/{{categoria.category_id}}
+</li>
+        
+   
+</ul>
+
+
+
+
+<!-- Datos -->
+<div class="table-responsive">
+<table class="table" >
+  <thead>
+    <th>id</th>
+    <th>titulo</th>
+    <th>autor</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let libro of libros">
+      <td>
+        <img src="{{libro.cover}}">
+      </td>
+      <!-- <td><a (click)="getLibro(libro.ID)">{{ libro.ID }}</a></td> -->
+      <td>{{ libro.ID }}</td>
+      <td>{{ libro.title }}</td>
+      <td>{{ libro.author }}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+</section>
