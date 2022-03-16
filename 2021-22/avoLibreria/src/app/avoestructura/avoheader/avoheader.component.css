@@ -1,0 +1,30 @@
+header {
+  background-color: red;
+  display:grid;
+  height: 100px;
+  grid-template-columns: 1fr 9fr;
+  grid-template-areas:
+    "logo  menu";
+}
+
+figure {
+  grid-area: logo;
+}
+
+figure img {
+  height: 90px;
+}
+
+nav {
+  grid-area: menu;
+   align-items: center;
+   height: 100px;
+   margin-left: 20px;
+   font-size: 18px;
+}
+
+nav a  {
+  color: rgba(245, 245, 245, 0.815);
+}
+
+
